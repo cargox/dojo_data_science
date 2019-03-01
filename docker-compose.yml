@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  sandbox:
+    image: jupyter/scipy-notebook:latest
+    container_name: dst-sandbox
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/home/jovyan/work
+    command: bash -c "pip install xgboost && start-notebook.sh --NotebookApp.password='sha1:9090a6c20899:5f69f448b5e622d67c49e44b62ffe814249bb5e1'"
