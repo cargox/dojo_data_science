@@ -20,3 +20,5 @@ docker-compose up -d
 ### Accessing Jupyer Notebook
 
 Open a web-browser (recommended: Chrome and Firefox, if you use Internet Explorer, Edge or Safari, please... GET OUT!) and access `localhost:8888`.
+
+The password to access the Jupyter environment is `cargoxgh`.
