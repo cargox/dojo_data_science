@@ -2,7 +2,7 @@ version: '3.6'
 services:
   sandbox:
     image: jupyter/scipy-notebook:latest
-    container_name: dst-sandbox
+    container_name: dojo-sandbox-python
     ports:
       - "8888:8888"
     volumes:
